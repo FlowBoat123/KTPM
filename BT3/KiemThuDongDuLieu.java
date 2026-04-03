@@ -30,8 +30,8 @@ public class KiemThuDongDuLieu {
     
     @Test
     public void testTC4_AdultTicket_DueToAge() {
-        int expectedPrice = 200000;
-        int actualPrice = TicketCalculator.calculateTicketPrice(15, 110);
+        int expectedPrice = 150000;
+        int actualPrice = TicketCalculator.calculateTicketPrice(70, 120);
         assertEquals(expectedPrice, actualPrice);
     }
 
